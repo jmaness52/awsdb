@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RepairInfo" msprop:Generator_TableClassName="RepairInfoDataTable" msprop:Generator_TableVarName="tableRepairInfo" msprop:Generator_TablePropName="RepairInfo" msprop:Generator_RowDeletingName="RepairInfoRowDeleting" msprop:Generator_RowChangingName="RepairInfoRowChanging" msprop:Generator_RowEvHandlerName="RepairInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="RepairInfoRowDeleted" msprop:Generator_UserTableName="RepairInfo" msprop:Generator_RowChangedName="RepairInfoRowChanged" msprop:Generator_RowEvArgName="RepairInfoRowChangeEvent" msprop:Generator_RowClassName="RepairInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeviceType" msprop:Generator_ColumnVarNameInTable="columnDeviceType" msprop:Generator_ColumnPropNameInRow="DeviceType" msprop:Generator_ColumnPropNameInTable="DeviceTypeColumn" msprop:Generator_UserColumnName="DeviceType" type="xs:string" minOccurs="0" />
+              <xs:element name="Manufacturer" msprop:Generator_ColumnVarNameInTable="columnManufacturer" msprop:Generator_ColumnPropNameInRow="Manufacturer" msprop:Generator_ColumnPropNameInTable="ManufacturerColumn" msprop:Generator_UserColumnName="Manufacturer" type="xs:string" minOccurs="0" />
+              <xs:element name="Accessories" msprop:Generator_ColumnVarNameInTable="columnAccessories" msprop:Generator_ColumnPropNameInRow="Accessories" msprop:Generator_ColumnPropNameInTable="AccessoriesColumn" msprop:Generator_UserColumnName="Accessories" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" msprop:Generator_UserColumnName="Password" type="xs:string" minOccurs="0" />
+              <xs:element name="SvcApproved" msprop:Generator_ColumnVarNameInTable="columnSvcApproved" msprop:Generator_ColumnPropNameInRow="SvcApproved" msprop:Generator_ColumnPropNameInTable="SvcApprovedColumn" msprop:Generator_UserColumnName="SvcApproved" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="PartCost" msprop:Generator_ColumnVarNameInTable="columnPartCost" msprop:Generator_ColumnPropNameInRow="PartCost" msprop:Generator_ColumnPropNameInTable="PartCostColumn" msprop:Generator_UserColumnName="PartCost" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaticInfo" msprop:Generator_TableClassName="StaticInfoDataTable" msprop:Generator_TableVarName="tableStaticInfo" msprop:Generator_TablePropName="StaticInfo" msprop:Generator_RowDeletingName="StaticInfoRowDeleting" msprop:Generator_RowChangingName="StaticInfoRowChanging" msprop:Generator_RowEvHandlerName="StaticInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="StaticInfoRowDeleted" msprop:Generator_UserTableName="StaticInfo" msprop:Generator_RowChangedName="StaticInfoRowChanged" msprop:Generator_RowEvArgName="StaticInfoRowChangeEvent" msprop:Generator_RowClassName="StaticInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreAddress" msprop:Generator_ColumnVarNameInTable="columnStoreAddress" msprop:Generator_ColumnPropNameInRow="StoreAddress" msprop:Generator_ColumnPropNameInTable="StoreAddressColumn" msprop:Generator_UserColumnName="StoreAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="StoreAddress2" msprop:Generator_ColumnVarNameInTable="columnStoreAddress2" msprop:Generator_ColumnPropNameInRow="StoreAddress2" msprop:Generator_ColumnPropNameInTable="StoreAddress2Column" msprop:Generator_UserColumnName="StoreAddress2" type="xs:string" minOccurs="0" />
+              <xs:element name="StorePhone" msprop:Generator_ColumnVarNameInTable="columnStorePhone" msprop:Generator_ColumnPropNameInRow="StorePhone" msprop:Generator_ColumnPropNameInTable="StorePhoneColumn" msprop:Generator_UserColumnName="StorePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="CustName" msprop:Generator_ColumnVarNameInTable="columnCustName" msprop:Generator_ColumnPropNameInRow="CustName" msprop:Generator_ColumnPropNameInTable="CustNameColumn" msprop:Generator_UserColumnName="CustName" type="xs:string" minOccurs="0" />
+              <xs:element name="CustTel1" msprop:Generator_ColumnVarNameInTable="columnCustTel1" msprop:Generator_ColumnPropNameInRow="CustTel1" msprop:Generator_ColumnPropNameInTable="CustTel1Column" msprop:Generator_UserColumnName="CustTel1" type="xs:string" minOccurs="0" />
+              <xs:element name="CustTel2" msprop:Generator_ColumnVarNameInTable="columnCustTel2" msprop:Generator_ColumnPropNameInRow="CustTel2" msprop:Generator_ColumnPropNameInTable="CustTel2Column" msprop:Generator_UserColumnName="CustTel2" type="xs:string" minOccurs="0" />
+              <xs:element name="EmployeeName" msprop:Generator_ColumnVarNameInTable="columnEmployeeName" msprop:Generator_ColumnPropNameInRow="EmployeeName" msprop:Generator_ColumnPropNameInTable="EmployeeNameColumn" msprop:Generator_UserColumnName="EmployeeName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RepairNotes" msprop:Generator_TableClassName="RepairNotesDataTable" msprop:Generator_TableVarName="tableRepairNotes" msprop:Generator_TablePropName="RepairNotes" msprop:Generator_RowDeletingName="RepairNotesRowDeleting" msprop:Generator_RowChangingName="RepairNotesRowChanging" msprop:Generator_RowEvHandlerName="RepairNotesRowChangeEventHandler" msprop:Generator_RowDeletedName="RepairNotesRowDeleted" msprop:Generator_UserTableName="RepairNotes" msprop:Generator_RowChangedName="RepairNotesRowChanged" msprop:Generator_RowEvArgName="RepairNotesRowChangeEvent" msprop:Generator_RowClassName="RepairNotesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rNotes" msprop:Generator_ColumnVarNameInTable="columnrNotes" msprop:Generator_ColumnPropNameInRow="rNotes" msprop:Generator_ColumnPropNameInTable="rNotesColumn" msprop:Generator_UserColumnName="rNotes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
